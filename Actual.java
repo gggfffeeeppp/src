@@ -16,15 +16,15 @@
  */
 
 public class Actual {
-    private void actual(int arr[]){
-        arr[0]=arr[0]*5;
+    private void actual(int[] arr) {
+        arr[0] = arr[0] * 5;
         System.out.println(arr[0]);
     }
 
-    public static void main(String[]args){
-        int a[]=new int[]{5};
-        Actual actual=new Actual();
+    public static void main(String[] args) {
+        int[] a = new int[]{5,6};
+        Actual actual = new Actual();
         actual.actual(a);
-        System.out.println(a[0]);
+        System.out.println(a[0]+ "   "+ a[1]);
     }
 }
