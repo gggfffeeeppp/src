@@ -21,6 +21,7 @@ public class Actual {
         System.out.println(arr[0]);
     }
 
+
     public static void main(String[]args){
         int a[]=new int[]{5};
         Actual actual=new Actual();
