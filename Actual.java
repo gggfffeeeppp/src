@@ -22,9 +22,9 @@ public class Actual {
     }
 
     public static void main(String[] args) {
-        int[] a = new int[]{5,6};
+        int[] a = new int[]{5, 6};
         Actual actual = new Actual();
         actual.actual(a);
-        System.out.println(a[0]+ "   "+ a[1]);
+        System.out.println(a[0] + "   " + a[1]);
     }
 }
